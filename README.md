@@ -20,7 +20,7 @@ All referenced assemblies are automatically included to the Add-In Package, that
 References are identified by using the public key token of .NET Assemblies
 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=<b>b77a5c561934e089</b>
 
-Well-Known public key tokens of assemblies are ingored in the packaging process:
+Well-Known public key tokens of assemblies are ignored in the packaging process:
 * b77a5c561934e089 (.NET Framework)
 * 31bf3856ad364e35 (.NET Framework)
 * B03f5f7f11d50a3a (.NET Framework)
@@ -82,21 +82,20 @@ How to work with events – best practices
 This folder demonstrates best-practices to create reliable code.
 
 ## ExceptionDemo
-Using exceptions is state-of-the-art, but only for exceptional purposes. This sample demonstrates that exceptions may speed down the exection of code heavily.
+Using exceptions is state-of-the-art, but only for exceptional purposes. This sample demonstrates that exceptions may speed down the execution of code heavily.
 
 ## NLogSample
 <a name="NLogSample"></a>
 Uses [NLog](https://github.com/NLog/NLog) for logging in Add-Ins. 
 
-There are two targets configurated using NLog's configuration API:
+There are two targets configured using NLog's configuration API:
 * FileTarget for logging to C:\ProgramData\Company\zenon\ZENRT32_NLogAddIn.log
 * NLogViewerTraget to send messages to Sentinal. [Sentinal](http://sentinel.codeplex.com/) is a Log Viewer 
 
 
 ## RedundancySample
 
-This folder contains a project that demonstrates how to work with Add-Ins using zenon Network. When an extension starts, it has to be determinded if the extension is running on 
-server, standby or on a client, depending on the kind of implementation. There are two events for server-standby and standby-server switching to active or deactivate the processing of Add-In code.
+This folder contains a project that demonstrates how to work with Add-Ins using zenon Network. When an extension starts, it has to be determined if the extension is running on server, standby or on a client, depending on the kind of implementation. There are two events for server-standby and standby-server switching to active or deactivate the processing of Add-In code.
 
 
 # GettingStarted
