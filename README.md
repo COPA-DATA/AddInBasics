@@ -52,7 +52,7 @@ This folder gives hints how to work with the zenon API. Also, there are sample o
 
 ## ApiPerformanceSample
 
-This sample demonstrates why you shown reduce the calls to zenon API to an absolute minimum.
+This sample demonstrates why you should reduce the calls to zenon API to an absolute minimum.
 
 How to work with zenon API – best practices
 * Do not iterate through whole lists like variables. There can be many thousands of variables defined!
