@@ -4,7 +4,7 @@ zenon’s engineering environment is flexible and can be used in many ways. Comp
 
 To open projects of this repository please install Visual Studio Developer Tools, they available at [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1463468.COPA-DATASCADAAdd-InDeveloperToolsforVS) 
 
-This repository contains Add-Ins training samples. All projects of this folder are added at solution [Training.sln](Training.sln)
+This repository contains Add-Ins basic samples. All projects of this folder are added at solution [Basics.sln](Basics.sln)
 
 
 # AddInEngine
