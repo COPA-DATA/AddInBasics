@@ -1,4 +1,4 @@
-zenon is a software system from COPA-DATA for industrial automation and the energy industry. Machines and equipment are controlled, monitored and optimized. zenon's particular strength is open and reliable communication throughout heterogeneous production facilities. Over 300 native communication protocols support the horizontal and vertical exchange of data. This allows for the continuous implementation of Industrial IoT and the Smart Factory.
+zenon is a software platform from COPA-DATA for industrial automation and the energy industry. Machines and equipment are controlled, monitored and optimized. zenon's particular strength is open and reliable communication throughout heterogeneous production facilities. Over 300 native communication protocols support the horizontal and vertical exchange of data. This allows for the continuous implementation of Industrial IoT and the Smart Factory.
 
 zenon’s engineering environment is flexible and can be used in many ways. Complex functions for comprehensive applications such as HMI/SCADA and reporting are supplied out of the box to create intuitive and robust applications. Users can thus contribute to the increased flexibility and efficiency of HMI applications using zenon.
 
@@ -90,7 +90,7 @@ Uses [NLog](https://github.com/NLog/NLog) for logging in Add-Ins.
 
 There are two targets configured using NLog's configuration API:
 * FileTarget for logging to C:\ProgramData\Company\zenon\ZENRT32_NLogAddIn.log
-* NLogViewerTraget to send messages to Sentinal. [Sentinal](http://sentinel.codeplex.com/) is a Log Viewer 
+* NLogViewerTarget to send messages to Sentinel. [Sentinel](https://ishegatron.github.io/Sentinel/) is a Log Viewer 
 
 
 ## RedundancySample
