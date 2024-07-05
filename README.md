@@ -122,26 +122,10 @@ The most important file of the project:
 
 
 
-
-
-
-
-
-
-
-
-
-# Documentation 
-
-This folder contains all zenon Help documentation samples
-
-
 # Documentation and Support
 
-Documentation is provided as integrated help. Just press F1 within the application to get context sensitive help. Further support is available on the COPA-DATA website:
+Documentation is provided as integrated help. Press F1 within the application to get context sensitive help.
 
-Use our forum to get the latest news: 
-https://forum.copadata.com/forumdisplay.php?45-Programming-Interface-API
+Head to [the COPA-DATA website](https://www.copadata.com) to get the latest news.
 
-For help contact our support: 
-https://www.copadata.com/en/support-services/
+Use our selfservice portal to get professional service and support [https://selfservice.copadata.com/](https://selfservice.copadata.com/)
