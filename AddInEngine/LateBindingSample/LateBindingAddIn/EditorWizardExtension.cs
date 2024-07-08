@@ -15,7 +15,7 @@ namespace LateBindingAddIn
         {
             try
             {
-                // To load assemblies during runtime, Activor.CreateInstances is uses here (but there are more options available in .NET, e. g. IoC container)
+                // To load assemblies during runtime, Activator.CreateInstances is used here (but there are more options available in .NET, e. g. IoC container)
                 // by loading an assembly LateBoundAssembly.dll and instantiation of class LateBoundAssembly.SampleClass 
                 // Properties\AddInInfo.cs contains attribute [assembly: AddinModule("LateBoundAssembly.dll")] to add the DLL zu the Add-In Package
                 var result = Activator.CreateInstance("LateBoundAssembly", "LateBoundAssembly.SampleClass");
